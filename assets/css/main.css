@@ -2851,3 +2851,9 @@ body.is-menu-visible #menu {
 {
   white-space:nowrap;
 }
+
+.socialimages
+{
+  height: 4%;
+  width: 4%;
+}
