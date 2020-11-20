@@ -41,12 +41,139 @@
             <br>
             <h2>Requirements</h2>
             <br>
+            <p>These requirements will be broken down into three categories: functional requirements, performance
+                requirements, and environmental constraints. The first of which are the functional requirements which
+                are the operations that our application will be able to perform such as being able to utilize the user's
+                GPS location, or the ability to send and retrieve data relevant to the Madingley model to be displayed
+                by the applications UI. These will be followed by the performance requirements which are the
+                characteristics that aren’t functionally necessary, but are needed to ensure the application is up to
+                industry standards, and can execute its functions in an efficient and safe manner. Some of these would
+                include the speed of the application and its security. Lastly, we will cover the environmental
+                constraints of our application. These are the constraints that have been put on by our team, mentor, and
+                client for various reasons such as the platform compatibility, or previously built components that are
+                to be built into the application. All of which have been initially put together through various meetings
+                with our team, mentor and client, and have been further refined through intensive research and
+                discussions.</p>
             <br>
-            <h4>Work in Progress...</h4>
+            <br>
+            <b><p>Functional Requirements</p></b>
+
+            <p>1) Data Storage
+                <br>
+             - The ability to store relative application and user data amongst a designated cloud system</p>
+
+            <p>2) Graphic User Interface (GUI)
+                <br>
+             - The application will be viewed in a coherent and easy to understand way.
+                <br>
+             - The main menu of the application allow the user to select from a handful of options to learn more
+                about the project, technologies used, and project sponsor(s)
+                <br>
+                - The application will provide for various biodiversity options that the user can check off, and will be
+                displayed by the simulation
+            </p>
+
+            <p>3) Location access
+                <br>
+                - Access to the user’s GPS.
+            </p>
+
+            <p>4) Data processing
+                <br>
+                - A cloud based data processing back end that can interact with both the stored data and the client side
+                application.
+            </p>
+
+            <p>5) Visualization
+                <br>
+                - The ability to visualize the results of a given scenario in the form of heatmaps, graphs, and
+                informational tables
+                <br>
+                - The ability to tailor the visualization to predefined subgroups like “policy makers” and “general
+                public”.
+            </p>
+
+            <p>6) Data Exportation
+                <br>
+                - The application will have the ability to export the results of a scenario in a raw (CSV) form as well
+                as collection of images representing tables and graphs generated from the scenario.</p>
+            <br>
+            <br>
+            <br>
+            <b><p>Performance Requirements</p></b>
+
+            <p>1) Global Access
+                <br>
+                - The end goal of this application is to be used around the world.
+                <br>
+                - Since the developers associated with this project are located solely in the United States, this
+                requirement cannot be tested, but it can be assumed based on documentation provided by AWS, the App
+                Store, and Play Store.
+            </p>
+
+            <p>2) Responsiveness
+                <br>
+                - There should be little to no screen lag between application pages that do not rely on back-end
+                components.
+                <br>
+                - If a new page does rely on a back-end component there should not be a significant (10+ second) lag for
+                processing.
+                <br>
+                - If it is determined that the sequential variation of the code cannot be improved upon then the code
+                base will be parallelized to the best of its ability.
+            </p>
+
+            <p>3) Security
+                <br>
+                - Although the user will not be storing or inputting any information that is considered sensitive, it is
+                important to consider the security of application to prevent malicious actors from hijacking sessions,
+                or feeding malicious packets into the end-user’s connection.
+                <br>
+                - In order to ensure the security of the end-user, steps will be taken to authenticate and limit the
+                traffic and protocols accepted by both the server and client sides.
+            </p>
+
+            <p>4) Application Crashes
+                <br>
+                - Applications that crash or fail frequently have a high likelihood of losing users to its lack of
+                usability.
+                <br>
+                - In order to limit chances of crashes the application will only process content on a need by need
+                basis.
+                <br>
+                - If the number of crashes increases as the iterations increases then the application is flawed at a
+                very low level.
+            </p>
+
+            <p>5) Language Options
+                <br>
+                - A stretch goal associated with this project involves the ability to support multiple languages.
+            </p>
+
+            <br>
+            <br>
+            <br>
+            <b><p>Environmental Requirements</p></b>
+
+            <p>1) Programming Language Constraints
+                <br>
+                - As a result of the selected SDK, and other system components, we have been limited to what programming languages we will be able to use to develop our application.
+            </p>
+
+            <p>2) Web and Mobile Application
+                <br>
+                - In order to reach the largest number of people with our application, the client has requested that this application run on at least two mobile platforms as well as a web platform.
+                <br>
+                - Due to the hardware limitations and dependencies of both mobile and web based components, the amount of computation done on an end user’s device must be limited to the capabilities and components that are built-in to the device.
+            </p>
             <br>
             <br>
             <br>
             <br>
+            <br>
+            <br>
+            <p>The initial concept for this project created by the team sponsor:</p>
+                <a href="PreservingTropicalForestBiodiversity.pdf"> Preserving Tropical Forest Biodiversity</a>
         </div>
     </section>
 
