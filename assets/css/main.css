@@ -2854,13 +2854,6 @@ body.is-menu-visible #menu {
 
 .socialimages
 {
-  /* height: 4%;
-  width: 4%; */ 
-  /* 
-  feel free to change this back wes I 
-  just thought they looked a little large and blury when 
-  I was viewing the website on a larger monitor
-   */
   width: 30px;
   height: auto;
 }
