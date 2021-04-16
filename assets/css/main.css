@@ -2857,3 +2857,9 @@ body.is-menu-visible #menu {
   width: 30px;
   height: auto;
 }
+
+img.picture {
+  max-width: 100%;
+  height: auto;
+}
+
