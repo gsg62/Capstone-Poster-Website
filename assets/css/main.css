@@ -2862,4 +2862,19 @@ img.picture {
   max-width: 100%;
   height: auto;
 }
+img.docphoto
+{
+  max-width: 40%;
+  max-height: 50%;
+}
+.textBigger
+{
 
+  font-weight: bolder;
+  font-size: 140%;
+}
+.textSize
+{
+  font-size: 130%;
+  font-weight: bold;
+}

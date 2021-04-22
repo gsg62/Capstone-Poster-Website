@@ -27,10 +27,11 @@
         <ul class="links">
             <li><a href="index.html">Home</a></li>
             <li><a href="team.html">About Us</a></li>
-            <li><a href="projectOutline.html">Project Outline</a></li>
             <li><a href="problemSolution.html">Problem and Solution</a></li>
-            <li><a href="documentation.html">Documentation</a></li>
             <li><a href="requirements.html">Requirements</a></li>
+            <li><a href="projectOutline.html">Project Outline</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+
         </ul>
     </nav>
 
@@ -39,12 +40,13 @@
         <div class="inner">
             <br>
             <br>
-            <h2>Current Problems</h2>
+            <h1>Current Problems</h1>
 
-            <p>Issues that are present in the Megabiota laboratory research process can be focused around the two core
+            <p class="textSize">Issues that are present in the Megabiota laboratory research process can be focused around the two core
                 topics:
             </p>
-            <b>Distribution of Data</b>
+            <h3 class="textBigger">Distribution of Data</h3>
+            <div class="textSize">
             <br>
                     - Website is a small public platform
                 <br>
@@ -53,9 +55,11 @@
                     - Research papers typically read by only other researchers
                 <br>
                     - Graphical data can only be obtained from programs like Panopoly
+            </div>
             <br>
             <br>
-            <b>Visualization of Data</b>
+            <h3 class="textBigger">Visualization of Data</h3>
+            <div class="textSize">
             <br>
                     - Tables of raw data are unappealing
                 <br>
@@ -66,13 +70,15 @@
             <p>Through a combination of these two problems, the data being produced by the Madingley model is not being
                 properly introduced to the public as intended. Therefore, these issues need to be remedied in order for
                 the data from the revolutionary model to be fully utilized.</p>
+            </div>
             <br>
             <br>
             <br>
             <br>
 
-            <h2>Overall Solution</h2>
+            <h1>Overall Solution</h1>
             <br>
+            <div class="textSize">
             <p>Coming Soon: Link to Solution Demonstration</p>
             <br>
 
@@ -120,7 +126,7 @@
                 later as they see fit, whether it be for further analysis or for presentation purposes.
             </p>
             <br>
-
+            </div>
             <div>
                 <br>
                 <img src="images/solutionOutline.png" alt="General Outline of Our Solution" class="picture"/>
@@ -130,24 +136,27 @@
             <br>
             <br>
             <br>
-            <h2>Architectural Overview</h2>
+            <h1>Architectural Overview</h1>
             <br>
+            <div class="textSize">
             <p>Our project has four main components: AWS S3 bucket, AWS lambda functions, AWS API Gateway, and the
                 Ionic interface. The S3 bucket stores all of the Madingley Model data. In order to retrieve the
                 data, our application uses several lambda functions. They fetch the data and process it. After it has been
                 processed, the API Gateway transports the data from the lambda function to the Ionic interface. When
                 the data reaches the Ionic interface, the user will get the output that resulted from their initial
                 input.</p>
+            </div>
             <br>
             <img  src="images/ArchitecturalOverview.png" class="picture"/>
             <br>
             <br>
             <br>
             <div >
-            <h2>Technologies</h2>
+            <h1>Technologies</h1>
+                <div class="textSize">
                 <br>
                 <p>Each of the components in our application’s architecture was chosen through intensive research and
-                    comparison, and was included because we feel it was truly the best candidate for its job.</p>
+                    comparison, and was included because we felt it was truly the best candidate for its job.</p>
                 <p>The AWS API Gateway, Lambda, and S3 backend services were all chosen because Amazon has the highest
                     regarded web services due to them being extremely easy to integrate. Not only can they be easily
                     integrated with each other, but they can also be integrated fairly easily with a separate UI
@@ -169,6 +178,7 @@
                     already had experience with JavaScript.</p>
                 <br>
             <br>
+                </div>
             <img  src="images/technologies.png" class="picture"/>
             </div>
         </div>
